@@ -24,7 +24,9 @@ classifiers = [
 # Runtime dependencies are intentionally empty at scaffold time.
 # Add analysis libraries here as the project actually needs them, e.g.:
 #   dependencies = ["pandas>=2.2", "numpy>=2.0", "matplotlib>=3.9"]
-dependencies = []
+dependencies = [
+    "pandas>=3.1.1",
+]
 
 [project.urls]
 Repository = "https://github.com/BenFlint123/mit_micromasters_exercises.git"
